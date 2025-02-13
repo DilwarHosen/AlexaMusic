@@ -8,7 +8,7 @@ gitpython
 gunicorn==20.1.0
 hachoir
 heroku3==5.1.4
-httpx[http2]==0.25.2
+httpx>=0.28.1
 lyricsgenius
 motor
 ntgcalls
