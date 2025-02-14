@@ -1,11 +1,11 @@
 # Bot Commands
-PING_COMMAND : ["ping"]
+PING_COMMAND : ["aping"]
 START_COMMAND : ["start"]
 HELP_COMMAND : ["help"]
 SETTINGS_COMMAND : ["settings", "setting"]
 RELOAD_COMMAND : ["admincache", "reload"]
-GSTATS_COMMAND : ["gstats"]
-STATS_COMMAND : ["stats"]
+GSTATS_COMMAND : ["agstats"]
+STATS_COMMAND : ["astats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
@@ -45,7 +45,7 @@ RESTART_COMMAND : ["reboot"]
 # Sudo Command
 ADDSUDO_COMMAND : ["addsudo"]
 DELSUDO_COMMAND : ["delsudo", "rmsudo"]
-SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
+SUDOUSERS_COMMAND : ["asudolist", "alistsudo"]
 
 #Broadcast 
 BROADCAST_COMMAND : ["broadcast", "gcast"]
