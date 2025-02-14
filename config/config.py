@@ -86,7 +86,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "104857600"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "1073741824"))
 # https://www.gbmb.org/mb-to-bytes
 
-COOKIES = getenv("COOKIES", "https://batbin.me/ovipositor")
+COOKIES = getenv("COOKIES", "https://batbin.me/vergilianism")
 
 STRING1 = getenv("STRING_SESSION", "BQFpyqoAiGOYboTQWK7NXZmliA2f8m4SCle4X0VlsEiAKWAjsnjVvtNQVlpMknuqGEWI0yP1ldVRT4gaNL6PfBYavqf53ofvIfGHVvhmM3HY4xjk-lbOjKT7CR0OXGh0MD-xqS2X2n9JBlZg3DtBarNgg2AL9Qt3TVTPs13EcW3SdzrsFBbfMPYHnVoSS8JS4L_XIVPhxxprcZFSZlwpSO4kLLuKdCwgMpxt9Y4W0HLAJ2Haw7KAdBUkAxZsAtbKhlYIj9kDqLEpQrvjmZ3lWw4HNpOIiAtorPC5-4pAGMes2Vk2XvDajsbdjwLZ2Rrd-vjFFpL2TeahkNcYhgpo5XbnNV5OFwAAAAG0Yy8hAA")
 STRING2 = getenv("STRING_SESSION2", None)
