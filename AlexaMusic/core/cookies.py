@@ -8,6 +8,7 @@ import os
 import requests
 from typing import Optional
 
+import config
 from ..logging import LOGGER
 
 
@@ -30,7 +31,7 @@ def save_file(
 
 
 def save_cookies() -> None:
-    full_url: str = str.open(cookies/cookies.txt)
+    full_url: str = str(config.COOKIES)
     paste_id: str = full_url.split("/")[-1]
     pastebin_url: str = f"https://batbin.me/raw/{paste_id}"
 
