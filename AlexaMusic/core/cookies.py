@@ -31,7 +31,7 @@ def save_file(
 
 
 def save_cookies() -> None:
-    full_url: str = str(config.COOKIES)
+    full_url: str = str(cookies/cookies.txt)
     paste_id: str = full_url.split("/")[-1]
     pastebin_url: str = f"https://batbin.me/raw/{paste_id}"
 
